@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    margin: 0;
 }
 
 .linktext {
@@ -12,24 +13,36 @@ body {
 .link1 {
     padding: 10px;
     margin-top: 10px;
-    border-style: solid;
+}
+
+.link1:hover {
+    transform: scale(1.01);
+    background-color: rgb(247, 247, 247);
 }
 
 .img60 {
     width: 60%;
 }
 
+#header {
+    padding: 50px;
+}
+
 #footer {
     font-size: large;
+}
+
+#contribute {
+    color: gray;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    margin-top: 30px;
 }
 
 #bottomRibbon {
     font-size: small;
     color: gray;
-    background-color: rgb(245, 245, 245);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
+    padding: 50px;
 }
 
 .logo-link-small {
