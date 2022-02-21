@@ -1,15 +1,47 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    padding: 5%;
 }
 
-.link {
+.linktext {
     font-size: large;
     text-decoration: none;
-    padding: 1%;
+    color: black;
 }
+
+.link1 {
+    padding: 10px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+
+
 
 .img60 {
     width: 60%;
+}
+
+
+#footer {
+    font-size: large;
+}
+
+#bottomRibbon {
+    font-size: small;
+    color: gray;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.logo-link-small {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-link-small:hover {
+    transform: scale(1.08);
 }
